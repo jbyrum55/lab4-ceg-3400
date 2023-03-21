@@ -1,6 +1,6 @@
 # Lab 4 : CEG 3400 Intro to Cyber Security
 
-## Name:
+## Name: Jason Byrum
 
 ### Task 1: A Shell Game 
 
@@ -9,6 +9,10 @@ Answer the following:
 * What port does the provided command open?
 * What is a Bind Shell and a Reverse Shell (include the links you used in 
   your research!)
+  * A blind shell is when an attacker finds an open port on the desired server and then connects their shell to that port
+  * A reverse shell is when an attacker has their own port and waits for the user to connect giving the attacker access.
+  * https://www.geeksforgeeks.org/difference-between-bind-shell-and-reverse-shell/
+  * https://infosecwriteups.com/reverse-shell-vs-bind-shell-d5a1e80b6a6c
 * Which type of shell does this command open?
 * What/whose permissions does this shell provide?
 * Give evidence of your malicious shell running a command:
