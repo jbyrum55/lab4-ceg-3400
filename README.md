@@ -115,7 +115,7 @@ Packet.show()
 ``` 
 
 * What scapy sniff options did you use to JUST show needed packets for this task?
-
+  * I used the sniff command to capture 10 packets and then you can tell which ones are being sent to the shell based off of the IPs.
 * What are the contents of the packet (what command or response did you capture)?
-
+  * The source was 10.0.0.20 and they were being sent to the IP of 174.97.116.191
 
