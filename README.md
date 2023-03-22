@@ -7,6 +7,7 @@
 Answer the following:
 
 * What port does the provided command open?
+ * It opens the port 1234.
 * What is a Bind Shell and a Reverse Shell (include the links you used in 
   your research!)
   * A blind shell is when an attacker finds an open port on the desired server and then connects their shell to that port
@@ -14,7 +15,9 @@ Answer the following:
   * https://www.geeksforgeeks.org/difference-between-bind-shell-and-reverse-shell/
   * https://infosecwriteups.com/reverse-shell-vs-bind-shell-d5a1e80b6a6c
 * Which type of shell does this command open?
+ * This opens a reverse shell. 
 * What/whose permissions does this shell provide?
+ * It opens a listening port and allows the attacker to run commands without physically accessing the system.
 * Give evidence of your malicious shell running a command:
 
 ```
