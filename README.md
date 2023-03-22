@@ -7,7 +7,7 @@
 Answer the following:
 
 * What port does the provided command open?
- * It opens the port 1234.
+  * It opens the port 1234.
 * What is a Bind Shell and a Reverse Shell (include the links you used in 
   your research!)
   * A blind shell is when an attacker finds an open port on the desired server and then connects their shell to that port
@@ -15,9 +15,9 @@ Answer the following:
   * https://www.geeksforgeeks.org/difference-between-bind-shell-and-reverse-shell/
   * https://infosecwriteups.com/reverse-shell-vs-bind-shell-d5a1e80b6a6c
 * Which type of shell does this command open?
- * This opens a reverse shell. 
+  * This opens a reverse shell. 
 * What/whose permissions does this shell provide?
- * It opens a listening port and allows the attacker to run commands without physically accessing the system.
+  * It opens a listening port and allows the attacker to run commands without physically accessing the system.
 * Give evidence of your malicious shell running a command:
 
 ```
@@ -33,9 +33,9 @@ evidence
 Please name your file `task2.rules`
 
 * Would this iptables firewall configuration (`task2.rules`) be considered a whitelist or blacklist?  Explain.
- * This is blacklist because it blocks all of the incoming traffic to the shell. It would be whilelist if it let in certain traffic with specifications.
+  * This is blacklist because it blocks all of the incoming traffic to the shell. It would be whilelist if it let in certain traffic with specifications.
 * How did you verify that this worked?  Be verbose!
-
+  * To verify that this worked I used the command iptables -L -v to see it was accepting no traffic. Then I tried to ping the ip and the port and got no response back, so therefore it does not accept traffic.
 ---
 
 ### Task 3: Any Port in a Storm
