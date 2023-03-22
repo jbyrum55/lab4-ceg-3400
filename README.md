@@ -33,6 +33,7 @@ evidence
 Please name your file `task2.rules`
 
 * Would this iptables firewall configuration (`task2.rules`) be considered a whitelist or blacklist?  Explain.
+ * This is blacklist because it blocks all of the incoming traffic to the shell. It would be whilelist if it let in certain traffic with specifications.
 * How did you verify that this worked?  Be verbose!
 
 ---
