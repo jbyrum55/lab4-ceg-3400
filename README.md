@@ -49,7 +49,7 @@ Answer the following:
 * Would this iptables firewall configuration (`task3.rules`) be considered a whitelist or blacklist?  Explain.
   * This is blacklist becasue it blocks out all of the traffic to all of the ports no traffic what so ever.
 * Did you lock yourself out?
-  * Yes, I got locked out.
+    * Yes, I got locked out.
   * If no: How did you verify that this worked?  
   * If yes: triage, what did you do wrong?  How would you fix it (paste a 
     new attempt at your `task3.rules` right here and try to fix your error)
