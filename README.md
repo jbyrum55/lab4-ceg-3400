@@ -53,6 +53,7 @@ Answer the following:
   * If no: How did you verify that this worked?  
   * If yes: triage, what did you do wrong?  How would you fix it (paste a 
     new attempt at your `task3.rules` right here and try to fix your error)
+      * I believe that I need to take a whitelist approach and block out all of the attacker traffic but add a special request that lets only me in.
 
 ---
 
