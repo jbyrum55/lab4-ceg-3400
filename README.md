@@ -111,9 +111,7 @@ Packet.show()
 ###[ Raw ]###
            load= '2\xfe\n\xa0\xdf\x11\xc8\x10\x0c\xf4\xff\x93\x9a\xd5\x91\x15I\xb7\xca\x190\xfc\xc8\x0e\r\x16\xff{\xa3\xe2\xbd\xcc\xa9\xcdq\xd3'
 
-
-
-``` 
+```
 
 * What scapy sniff options did you use to JUST show needed packets for this task?
   * I used the sniff command to capture 10 packets and then you can tell which ones are being sent to the shell based off of the IPs.
